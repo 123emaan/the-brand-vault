@@ -6,25 +6,25 @@ const About: React.FC = () => {
       <div className="kicker pretitle">About Us</div>
       <h1>Our Story — Fashion with purpose</h1>
       <p className="muted" style={{marginTop:12}}>
-        The Brand Vault started with a simple belief: every woman deserves access to high-quality branded clothing at fair prices. We partner with major Pakistani labels to curate surplus, last season pieces and slight-return stock, ensuring each item meets our quality standards.
+        The Brand Vault started with a simple belief: every woman deserves access to high-quality branded clothing at fair prices. We carefully curate collections from Pakistan's most trusted fashion labels, ensuring each item meets our exacting quality standards while remaining beautifully affordable.
       </p>
 
       <section style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:18, marginTop:22}}>
         <div className="card" style={{padding:18}}>
           <h3>Quality First</h3>
-          <p className="muted">Every product is inspected and curated by our team. We only list pieces that meet a high bar of craftsmanship—so you get brand-quality without the premium markup.</p>
+          <p className="muted">Every product is inspected and curated by our team. We only list pieces that meet a high bar of craftsmanship — so you get authentic brand quality at prices you'll love.</p>
         </div>
         <div className="card" style={{padding:18}}>
           <h3>Affordable Pricing</h3>
-          <p className="muted">By sourcing surplus and last-season stock, we pass wholesale-level savings directly to you. It’s premium fashion that’s accessible.</p>
+          <p className="muted">Through smart sourcing and careful curation, we bring you premium fashion at accessible prices. It's the quality you expect, at a value you'll appreciate.</p>
         </div>
         <div className="card" style={{padding:18}}>
           <h3>Sustainable Approach</h3>
-          <p className="muted">Reducing waste and extending the lifecycle of garments supports a healthier fashion economy. We celebrate pre-loved and slightly imperfect pieces.</p>
+          <p className="muted">Reducing waste and extending the lifecycle of beautiful garments supports a healthier fashion economy. Each purchase makes a positive impact.</p>
         </div>
         <div className="card" style={{padding:18}}>
           <h3>Brands You Trust</h3>
-          <p className="muted">Agha Noor, Sapphire, Nishaat, Saya, Limelight and more—sourced with care and authenticity checks.</p>
+          <p className="muted">Agha Noor, Sapphire, Nishaat, Saya, Limelight and more — sourced with care and authenticity guaranteed.</p>
         </div>
       </section>
 
@@ -33,7 +33,7 @@ const About: React.FC = () => {
           <img src="https://picsum.photos/seed/store/400/250" alt="store" style={{width:360, borderRadius:10}} />
           <div>
             <h3>Visit our collection</h3>
-            <p className="muted">Browse the latest arrivals and seasonal collections—handpicked for style-conscious shoppers who love value.</p>
+            <p className="muted">Browse the latest arrivals and seasonal collections — handpicked for style-conscious shoppers who love quality and value.</p>
             <a href="/" className="btn btn-primary" style={{marginTop:8}}>Start Shopping</a>
           </div>
         </div>

@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
     <div style={{maxWidth:760, margin:'0 auto'}}>
       <div className="kicker pretitle">Get in touch</div>
       <h1>Contact Us</h1>
-      <p className="muted">Have questions about a product, shipping, or wholesale orders? Send us an inquiry and we'll respond quickly.</p>
+      <p className="muted">Have questions about a product, shipping, or bulk orders? Send us an inquiry and we'll respond quickly.</p>
 
       <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:18, marginTop:14}}>
         <div className="card" style={{padding:18}}>
