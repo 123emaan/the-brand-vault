@@ -7,7 +7,6 @@ export type Product = {
   season: 'Summer' | 'Winter'
   finish: 'Embroidered' | 'Printed'
   price: number
-  originalPrice?: number
   images: string[]
   description: string
   sizes?: string[]

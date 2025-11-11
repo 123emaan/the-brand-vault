@@ -27,8 +27,7 @@ const ProductPage: React.FC = () => {
           <h1 style={{marginBottom:8}}>{product.title}</h1>
           <div className="muted">{product.fabric} • {product.finish} • {product.season}</div>
           <div style={{marginTop:12}}>
-            <div className="price">PKR {product.price.toLocaleString()}</div>
-            {product.originalPrice && <div className="orig">PKR {product.originalPrice.toLocaleString()}</div>}
+            <div className="price" style={{fontSize:28}}>PKR {product.price.toLocaleString()}</div>
           </div>
 
           <div style={{marginTop:18}}>
@@ -55,7 +54,7 @@ const ProductPage: React.FC = () => {
       <div id="inquiry" style={{marginTop:24}} className="card">
         <div style={{padding:16}}>
           <h3>Inquiry about this item</h3>
-          <p className="muted">Email hello@thebrandvault.pk with the product code <strong>{product.id}</strong> for bulk/wholesale inquiries.</p>
+          <p className="muted">Email hello@thebrandvault.pk with the product code <strong>{product.id}</strong> for any questions or bulk order inquiries.</p>
         </div>
       </div>
     </div>

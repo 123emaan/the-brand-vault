@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div style={{display:'flex', justifyContent:'space-between', gap:20, flexWrap:'wrap'}}>
           <div style={{flex:'1 1 260px', padding:18}}>
             <h3 style={{marginBottom:8}}>The Brand Vault</h3>
-            <p className="muted">Curated surplus and last-season pieces from Pakistan's top brands. Quality you can trust at prices you'll love.</p>
+            <p className="muted">Curated collections from Pakistan's most trusted fashion brands. Quality you can trust at prices you'll love.</p>
           </div>
           <div style={{flex:'1 1 160px', padding:18}}>
             <h4 style={{marginBottom:8}}>Quick Links</h4>

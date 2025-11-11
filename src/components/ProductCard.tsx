@@ -21,10 +21,7 @@ const ProductCard: React.FC<Props> = ({ product, onQuickView }) => {
       <div className={styles.body}>
         <div className={styles.meta}>
           <div className={styles.brand}>{product.brand}</div>
-          <div className={styles.priceRow}>
-            <div className={styles.price}>PKR {product.price.toLocaleString()}</div>
-            {product.originalPrice && <div className={styles.orig}>PKR {product.originalPrice.toLocaleString()}</div>}
-          </div>
+          <div className={styles.price}>PKR {product.price.toLocaleString()}</div>
         </div>
         <div className={styles.title}>{product.title}</div>
         <div className={styles.tags}>

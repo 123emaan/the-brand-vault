@@ -22,8 +22,7 @@ const QuickViewModal: React.FC<Props> = ({ product, onClose }) => {
             <h3>{product.title}</h3>
             <p className="muted">{product.brand} • {product.fabric} • {product.finish}</p>
             <div style={{marginTop:12}}>
-              <div className="price">PKR {product.price.toLocaleString()}</div>
-              {product.originalPrice && <div className="orig">PKR {product.originalPrice.toLocaleString()}</div>}
+              <div className="price" style={{fontSize:22}}>PKR {product.price.toLocaleString()}</div>
             </div>
             <p style={{marginTop:12}} className="muted">{product.description}</p>
 

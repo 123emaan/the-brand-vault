@@ -53,8 +53,8 @@ const Home: React.FC = () => {
       <section className="hero card fade-in" aria-label="Featured">
         <div className="text">
           <div className="pretitle">Curated Fashion</div>
-          <h1>Branded pieces, reimagined — premium quality, accessible prices</h1>
-          <p>Explore a handpicked selection of surplus, last-season and lightly imperfect pieces from Pakistan's top labels. Each item is inspected and offered at wholesale-friendly prices.</p>
+          <h1>Branded elegance, accessible prices — quality you trust</h1>
+          <p>Explore a handpicked collection from Pakistan's most beloved brands. Each piece is carefully curated and offered at prices that make premium fashion accessible to everyone.</p>
           <div style={{display:'flex', gap:12, marginTop:14}}>
             <a className="btn btn-primary" href="#shop">Shop the Collection</a>
             <a className="btn btn-ghost" href="/about">Learn Our Story</a>
