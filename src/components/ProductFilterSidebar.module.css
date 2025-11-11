@@ -1,0 +1,31 @@
+.sidebar {
+  background: var(--card);
+  padding:16px;
+  border-radius:12px;
+  box-shadow: var(--shadow);
+}
+.section { margin-bottom:12px; }
+.section input {
+  padding:8px 10px;
+  border-radius:8px;
+  border:1px solid #e5e7eb;
+  width:100%;
+}
+.multilist { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.pill {
+  background:#fbfbfb;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid #f1f5f9;
+  cursor:pointer;
+  font-weight:700;
+  color:var(--muted);
+}
+.activePill{
+  background: linear-gradient(90deg,var(--deep-teal), #0b6b67);
+  color:white;
+  padding:6px 10px;
+  border-radius:999px;
+  border:none;
+  cursor:pointer;
+}

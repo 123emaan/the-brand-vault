@@ -1,0 +1,38 @@
+.backdrop {
+  position:fixed;
+  inset:0;
+  background: rgba(2,6,23,0.45);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:120;
+  padding:20px;
+}
+.modal {
+  width:100%;
+  max-width:980px;
+  background:var(--card);
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow: 0 30px 70px rgba(2,6,23,0.4);
+  position:relative;
+  animation: pop .14s ease;
+}
+@keyframes pop { from { transform: translateY(10px) scale(.98); opacity:0 } to { transform:none; opacity:1 } }
+.close {
+  position:absolute;
+  right:12px;
+  top:12px;
+  background:transparent;
+  border:none;
+  font-size:18px;
+  cursor:pointer;
+}
+.content {
+  display:flex;
+  gap:20px;
+  padding:20px;
+}
+.media { flex:1 1 420px; min-width:260px; max-width:420px; }
+.media img { width:100%; height:100%; object-fit:cover; border-radius:8px; }
+.info { flex:1; }
